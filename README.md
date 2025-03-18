@@ -19,4 +19,4 @@ I honestly don't think I made any trade-offs with how I implemented this project
 I think my unit tests suffered a bit due to the undecided nature of unit testing on Tasks. The way I structured my project had the observable models using tasks in functions, which meant the function itself wasn't marked as async. From the reading I did, there isn't a clearly decided-upon superior way to test these functions, so I tried several different versions before settling on what I have now. 
 
 ### Additional Information: Is there anything else we should know? Feel free to share any insights or constraints you encountered.
-I added exterior linking to the full recipes for those that had the URL, and indicated it with the link symbol on the bottom right of each row. 
+I added exterior linking to the full recipes for those that had the URL, and indicated it with the link symbol on the bottom right of each row. Given the size of the project, I chose to put all unit tests in the same file for ease of reading.
