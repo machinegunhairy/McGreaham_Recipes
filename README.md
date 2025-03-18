@@ -1,9 +1,9 @@
 # McGreaham_Recipes
 
 ### Summary: Include screen shots or a video of your app highlighting its features
-![HomeView](https://github.com/user-attachments/assets/9b83c0ba-1f8e-4f28-806d-570dafe0d1ea)
-![SearchResults](https://github.com/user-attachments/assets/3689bab4-e2b0-4633-b735-38a67799757f)
-![EmptyView](https://github.com/user-attachments/assets/581ad12b-f7f3-4f15-8ee4-1f4e165e2996)
+![HomeView](https://github.com/user-attachments/assets/8f9ae6b0-c764-45c9-9972-71de07df6c1f)
+![SearchResults](https://github.com/user-attachments/assets/0012b97a-37d2-431e-91c0-55057ae2afd6)
+![EmptyView](https://github.com/user-attachments/assets/95083dc3-8da0-4529-b1d1-ffb6f8b939f7)
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 I focused first on a data model and network calls that I could work against. After that, I then built the single row component then populated the main list.  After it was all working, I started refining the UI and considering additional features I wanted to add, like the search and full-recipe web view. I started with the data because that would inform what I could show in the UI. I built the smaller components (like the row) before the list because the list depended on the smaller parts being done first. Once it was all functional I could start taking holistic passes across how everything worked in its entirety to make sure things like caching and scrolling felt good.
